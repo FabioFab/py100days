@@ -181,3 +181,5 @@ print("Type a string, to have it reversed: ")
 chosen_string = input()
 
 print("Reversed string is " + reverseString(chosen_string))
+
+print("Done!")
