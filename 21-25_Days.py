@@ -17,5 +17,5 @@ print(np.__version__)
 listA = [1, 2, 4, 5, 6, 7]
 print("Starting list ", listA)
 
-one_dim_array = np.array(listA, int) # or even 'dtype = int'
+one_dim_array = np.array(listA, int) # or even 'dtype = int' would work
 print("My first 1D array is ", one_dim_array)
