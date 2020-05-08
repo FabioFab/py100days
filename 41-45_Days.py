@@ -132,14 +132,14 @@ def non_repeating(input_string):
     all_uniques = []
     # x[1] represents the second element, i.e. the number of occurrences rather then the character itself
     y = sorted(char_in_list.items(), key=lambda x: x[1])
-    print(y)
+    # print(y)
     for item in y:
         if item[1] == y[0][1]:
             all_uniques.append(item)
     return all_uniques
 
 
-print(" Please type a string ")
+print(" Please type a string, the program will identify all unique characters: ")
 str_in = input()
 print("These are the unique characters: ")
 print(non_repeating(str_in))
