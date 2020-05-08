@@ -236,10 +236,10 @@ for i in range(1, n_bmb+1):
     bomb_list.append(bmb)
     print(bomb_list)
 
-
-print("input row field size please: ")
+# Getting inputs
+print("Input row field size please: ")
 rw = int(input())
-print("input col field size please: ")
+print("Input col field size please: ")
 cl = int(input())
 
 print(mine_sweeper(bomb_list, rw, cl))
